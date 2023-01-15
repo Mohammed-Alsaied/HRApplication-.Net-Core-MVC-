@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DocType html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div class="text-center">
+    <h1 class="display-4">HR Application</h1>
+    @{
+        // Anchor Tag Helper
+    }
+    <img src="~/images/listicon.png" style="max-width:10%" />
+    <h1 class="display-4"><a asp-action="Employees" class="btn btn-primary">Employee</a></h1>
+    <h1 class="display-4"><a asp-action="EmployeeData" class="btn btn-primary">Employee Data</a></h1>
+</div>
+</body>
+</html>
+
+
